@@ -1,0 +1,61 @@
+Write python code to:
+
+1) Read the text in the file named 'source.txt' using Python-Web-Reading tools (Dont download and read :P)
+
+2) Use regex to find number of words, sentences, sum of all the numbers in text
+
+3) Also find the count of each character a-z case insensitive & 0-9
+
+4) Create an excel file dynamically with the following properties: (dont read pre prepared one and edit :P)
+  A) Sheet1 must be named as 'Character_Counts'. It should have 36 columns a-z0-9 and under 
+     each column must be count of that character in the source
+
+  B) In Sheet1, the character(number of letter both are characters) with highest count 
+     (if more than one then all of them) must have bold "column name" i.e. first row value 
+     and background of count value must be yellow i.e. second row value
+
+  C) Sheet2 must be named as 'Word_Counts'. It should have column name as 'Words' and the number of words calculated beneath it
+     Then in the rows below of the first column in the sheet, write each word per row. Ex: if there are 10 words, there must 10 rows
+     each containing one word. Start from 4th row preferrably for neatness
+
+  D) Sheet3 must be named as 'Sentence_Counts'. It should have column name as 'Sentences' and the number of sentencess calculated beneath it
+     Then in the rows below of the first column in the sheet, write each sentence per row. Ex: if there are 10 sentencess, there must 10 rows
+     each containing one sentence. Start from 4th row preferrably for neatness
+
+  E) Sheet4 must be named as 'Calculations'. It should have column name as 'Sum' and the sum of numbers calculated beneath it
+     Then in the rows below of the first column in the sheet, write each number per row. Ex: if there are 10 numbers there must 10 rows
+     each containing one number.Start from 4th row preferrably for neatness. (of course all must add up to the above count :P)
+
+5) Create a folder named "Results" in the same folder as of the python script realtime through python (dont right click and maually create :P)
+
+6) Write the generated excel file in xlsx format inside the created folder
+
+
+
+
+Description and additional info/requirements:
+-------------------------
+1) Word in above problem is having the same meaning as our regular day to day communication
+   i.e. any contiguous set of characters separated by space
+
+2) Sentence means any contiguous set of word separated by full stop
+
+3) Logic must be case insensitive
+
+4) If a words runs to a different line without a space means it is the continuation
+
+
+Input Restrictions:
+-------------------------
+1) characters in words can be anything from [a-zA-Z0-9] ex: "abDc82"  or "82" must be considered as words
+2) two words will be separated by spaces
+3) two sentences will be separated by full stops
+
+
+
+Result Format:
+-------------------------
+A sample excel output is present in the question folder
+It is not linked to any source files but just a display of how the output is expected
+
+---------------------------------------------------
